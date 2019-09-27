@@ -1,0 +1,162 @@
+{
+    "_inherit": true,
+    "_variables": {
+        "@dark": "rgb(51, 51, 51)",
+        "@light": "#ccc",
+        "@TitleColor": "rgb(89, 89, 89)",
+        "@SubtitleColor": "#888888",
+        "@TextColor": "rgb(51, 51, 51)",
+        "@TitleSize": "15px",
+        "@SubtitleSize": "12px",
+        "@TextSize": "14px",
+        "@FooterColor": "#6d6d6d",
+        "@FooterSize": "10px",
+        "@footerBG": "#e6e6e6",
+        "@objectLabelValue": "#fff",
+        "@axisLineMajor": "rgb(51, 51, 51)000",
+        "@axisLineMinor": "rgb(51, 51, 51)000",
+        "@referenceLineoutOfBoundsBG": "#fff",
+        "@lineChartoutOfRangeColor": "@default",
+        "@lineChartlabelvaluecolor": "rgb(51, 51, 51)",
+        "@barChartlabelvaluecolor": "rgb(51, 51, 51)",
+        "@barChartoutOfRangeColor": "@default"
+    },
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "backgroundColor": "@BackgroundColor",
+    "customStyles": [{
+        "cssRef": "theme.css",
+        "classRef": "sense-theme"
+    }],
+    "object": {
+        "title": {
+            "main": {
+                "color": "@TitleColor",
+                "fontSize": "@TitleSize"
+            },
+            "subTitle": {
+                "color": "@SubtitleColor",
+                "fontSize": "@SubtitleSize"
+            },
+            "footer": {
+                "color": "@FooterColor",
+                "fontSize": "@FooterSize",
+                "backgroundColor": "@footerBG"
+            }
+        },
+        "label": {
+            "name": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "value": {
+                "color": "@objectLabelValue",
+                "fontSize": "@TextSize"
+            }
+        },
+        "axis": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "13px"
+            },
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "line": {
+                "major": {
+                    "color": "@axisLineMajor"
+                },
+                "minor": {
+                    "color": "@axisLineMinor"
+                }
+            }
+        },
+        "grid": {
+            "line": {
+                "highContrast": {
+                    "color": "#ebf1ed"
+                },
+                "major": {
+                    "color": "#eeeeee"
+                },
+                "minor": {
+                    "color": "#eeeeee"
+                }
+            }
+        },
+        "referenceLine": {
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "outOfBounds": {
+                "color": "@TextColor",
+                "backgroundColor": "@referenceLineoutOfBoundsBG",
+                "fontSize": "@TextSize"
+            }
+        },
+        "legend": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "straightTable": {
+            "backgroundColor": "@light",
+            "title": {
+                "main": {
+                    "color": "@default",
+                    "fontSize": "@TextSize"
+                },
+                "subTitle": {
+                    "color": "@default",
+                    "fontSize": "@TextSize"
+                },
+                "footer": {
+                    "color": "@FooterColor",
+                    "fontSize": "@FooterSize",
+                    "backgroundColor": "@footerBG"
+                }
+            },
+            "header": {
+                "fontSize": "@straightTableHeaderFontSize",
+                "color": "@straightTableHeaderColor"
+            },
+            "content": {
+                "fontSize": "@TextSize",
+                "color": "@default"
+            }
+        },
+        "lineChart": {
+            "outOfRange": {
+                "color": "@lineChartoutOfRangeColor"
+            },
+            "label": {
+                "value": {
+                    "color": "@lineChartlabelvaluecolor",
+                    "fontSize": "@font-normal"
+                }
+            }
+        },
+        "barChart": {
+            "label": {
+                "value": {
+                    "color": "@barChartlabelvaluecolor",
+                    "fontSize": "@font-normal"
+                }
+            },
+            "outOfRange": {
+                "color": "@barChartoutOfRangeColor"
+            }
+        }
+    }
+}

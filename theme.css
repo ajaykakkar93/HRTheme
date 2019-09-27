@@ -1,0 +1,432 @@
+/* CSS */
+
+
+/* Load Editor */
+
+.qv-scripteditor-progressindicator .section {
+    padding-bottom: 5px;
+}
+
+.qv-scripteditor-progressindicator .log {
+    height: 380px;
+}
+
+.lui-tab.lui-active,
+.lui-tab.lui-focused,
+.lui-tab:focus {
+    border-bottom: 2px solid #47d6d7;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body,
+button,
+input,
+isindex,
+keygen,
+select,
+textarea {
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+    font-family: 'QlikView Sans', sans-serif;
+}
+
+.qvt-sheet {
+    background: rgb(255, 255, 255) !important;
+}
+
+#sheet-title .sheet-title-logo-img img {
+    max-height: 80%;
+}
+
+.qv-panel-sheet .sheet-title-container {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 28px;
+}
+
+#sheet-title.sheet-grid {
+    height: 28px;
+    font-size: 20px;
+}
+
+
+/*
+Loading
+*/
+
+.rain.progress .rain-image-container svg {
+    display: none;
+}
+
+.rain.progress .rain-image-container {
+    margin: auto;
+    background-image: url("data:image/gif;base64,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");
+    background-repeat: no-repeat;
+}
+
+.qv-filterpane .qv-filterpane-collapsed:focus {
+    box-shadow: 0 0 3px 1px #00BCD4;
+}
+
+.qs-toolbar .lui-icon,
+.qs-toolbar .lui-button,
+.lui-fade-button__text {
+    color: rgb(51, 51, 51);
+}
+
+.sel-toolbar-btn.sel-toolbar-confirm .lui-icon,
+.lui-button--warning .lui-icon,
+.lui-button--warning .lui-button__text,
+.lui-button--success .lui-icon,
+.lui-button--success .lui-button__text,
+.lui-button.lui-active .lui-icon,
+.lui-button.lui-active .lui-button__text,
+.lui-overlay-button .lui-icon,
+.lui-buttongroup .lui-button:active,
+.lui-button.lui-active .lui-caret {
+    color: #fff;
+}
+
+.lui-tab .lui-tab__text {
+    color: rgb(51, 51, 51);
+}
+
+.bright.qv-panel-current-selections .buttons-end .qv-subtoolbar-button,
+.bright.qv-panel-current-selections .buttons .qv-subtoolbar-button {
+    color: rgb(51, 51, 51);
+}
+
+.qv-object-nav {
+    position: absolute;
+    top: 44px;
+    right: 0px;
+}
+
+.qv-object-nav>a {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+
+.qv-object-nav>a.border {
+    border: 0px solid rgb(51, 51, 51);
+    border-radius: 0%;
+    padding: 0px;
+    background: transparent;
+}
+
+.object-wrapper:focus-within .qv-object-nav>a .touch-off .qv-object-nav>a {
+    color: rgb(51, 51, 51);
+}
+
+.qv-object-nav>a.border:hover {
+    border: 0px solid rgb(51, 51, 51);
+}
+
+.touch-off .qv-object-nav>a:hover {
+    color: rgb(51, 51, 51);
+}
+
+
+/*
+fliter
+*/
+
+.qv-collapsed-listbox .title-wrapper .title {
+    color: rgb(51, 51, 51);
+}
+
+
+/* nav button */
+
+.qv-object-qlik-tabbed-container article.tab-contents {
+    height: 85.5% !important;
+}
+
+
+/* object shadow */
+
+.qv-inner-object {
+    background-color: transparent !important;
+}
+
+
+/* end */
+
+
+/* scroll bar */
+
+.scrollbar-track.vertical .scrollbar-thumb {
+    width: 12px;
+}
+
+.scrollbar-track.horizontal .scrollbar-thumb {
+    height: 12px;
+}
+
+
+/* end */
+
+
+/* liui icon color */
+
+.qv-object .lui-icon,
+.qv-object .lui-caret,
+.qv-object .lui-checkbox__check {
+    color: rgb(51, 51, 51) !important;
+}
+
+
+/* end */
+
+
+/* object background color  .qv-object-VizlibTextObject,  */
+
+.qv-object-TableBox,
+.qv-object-Mdristi_Linear_gauge_meter,
+.qv-object-barchart,
+.qv-object-combochart,
+.qv-object-table,
+.qv-object-pivot-table,
+.qv-object-waterfallchart,
+.qv-object-treemap,
+.qv-object-Custom_table_test,
+.qv-object-map,
+.qv-object-linechart,
+.qv-object-scatterplot,
+.qv-object-piechart,
+.qv-object-gauge,
+.qv-object-histogram,
+.qv-object-distributionplot,
+.qv-object-boxplot,
+.qv-object-kpi {
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 2px 2px #fff;
+    -moz-box-shadow: 0 0 2px 2px #fff;
+    box-shadow: 0 0 0px 1px rgba(183, 182, 182, 0.68);
+}
+
+
+/* */
+
+
+/* .qv-object-kpi .qv-object-header,.qv-object-gauge .qv-object-header, .qv-object-text-image .qv-object-header */
+
+.qv-object-TableBox .qv-object-header,
+.qv-object-Mdristi_Linear_gauge_meter .qv-object-header,
+.qv-object-barchart .qv-object-header,
+.qv-object-combochart .qv-object-header,
+.qv-object-table .qv-object-header,
+.qv-object-pivot-table .qv-object-header,
+.qv-object-waterfallchart .qv-object-header,
+.qv-object-treemap .qv-object-header,
+.qv-object-map .qv-object-header,
+.qv-object-linechart .qv-object-header,
+.qv-object-scatterplot .qv-object-header,
+.qv-object-piechart .qv-object-header,
+.qv-object-histogram .qv-object-header,
+.qv-object-distributionplot .qv-object-header,
+.qv-object-boxplot .qv-object-header {
+    padding-left: 0px !important;
+    padding-bottom: 2px !important;
+    /*padding:0px !important;*/
+}
+
+.qv-object-TableBox .qv-object-header h1,
+.qv-object-Mdristi_Linear_gauge_meter .qv-object-header h1,
+.qv-object-barchart .qv-object-header h1,
+.qv-object-combochart .qv-object-header h1,
+.qv-object-table .qv-object-header h1,
+.qv-object-Custom_table_test .qv-object-header h1,
+.qv-object-pivot-table .qv-object-header h1,
+.qv-object-waterfallchart .qv-object-header h1,
+.qv-object-treemap .qv-object-header h1,
+.qv-object-map .qv-object-header h1,
+.qv-object-linechart .qv-object-header h1,
+.qv-object-scatterplot .qv-object-header h1,
+.qv-object-piechart .qv-object-header h1,
+.qv-object-histogram .qv-object-header h1,
+.qv-object-distributionplot .qv-object-header h1,
+.qv-object-boxplot .qv-object-header h1 {
+    padding: 5px !important;
+    border-bottom: 1px dashed rgb(199, 199, 199);
+    background-image: linear-gradient(180deg, #ffffff 0, #f3f3f3);
+}
+
+
+/*
+.qv-object-barchart .qv-object-header h1, .qv-object-combochart .qv-object-header h1, .qv-object-table .qv-object-header h1, .qv-object-Custom_table_test .qv-object-header h1, .qv-object-pivot-table .qv-object-header h1, .qv-object-waterfallchart .qv-object-header h1, .qv-object-treemap .qv-object-header h1, .qv-object-map .qv-object-header h1, .qv-object-linechart .qv-object-header h1, .qv-object-scatterplot .qv-object-header h1, .qv-object-piechart .qv-object-header h1, .qv-object-histogram .qv-object-header h1, .qv-object-distributionplot .qv-object-header h1, .qv-object-boxplot .qv-object-header h1 {
+	padding: 5px !important;
+}
+*/
+
+.qv-collapsed-listbox {
+    top: 0px;
+    height: 26px !important;
+}
+
+.qv-st-data-cell {
+    /* background-color: #0aaf54; */
+    /* border-bottom: 1px solid #0aaf54; */
+    text-align: Center !important;
+    color: rgb(51, 51, 51);
+}
+
+
+/* table style */
+
+th.qv-st-header-cell.ng-scope.ui-draggable.ui-draggable-handle.ui-draggable-disabled.qv-st-total-cell:last-child {
+    /* display: none; */
+    background: #fff !important;
+}
+
+
+/*
+total bottom
+*/
+
+.qv-st-header-cell-wrapper i.lui-icon,
+.qv-st-header-cell-search i.lui-icon {
+    color: #fff !important;
+}
+
+.qv-st-bottom-header .qv-st-total-cell:last-child {
+    /* display: none; */
+    background: #fff !important;
+}
+
+.qv-st-header-cell:not(:last-child) .qv-st-value {
+    text-align: center !important;
+}
+
+.qv-st-interactive:not(.qv-st-selections-active):not(.qv-st-reordering-active) .qv-st-header:not(.qv-st-custom-header) .qv-st-header-cell-search,
+.qv-st-navigatable:not(.qv-st-selections-active):not(.qv-st-reordering-active) .qv-st-header-sortable:not(.qv-st-custom-header) {
+    background: #1d96b2 !important;
+    color: #fff !important;
+    font-size: 15px !important;
+}
+
+div .qv-st-header-wrapper tr:nth-child(2),
+div .qv-st-bottom-header tr {
+    background: #1d96b2 !important;
+    color: #fff !important;
+    font-size: 14px !important
+}
+
+div .qv-object-table .qv-inner-object .qv-object-content-container .qv-grid-object-scroll-area table tr:nth-child(even) {
+    background: #fff !important;
+}
+
+div .qv-object-table .qv-inner-object .qv-object-content-container .qv-grid-object-scroll-area table tr:nth-child(odd) {
+    background: #f5fbff !important;
+}
+
+.qv-st-data-cell-null-value {
+    background-color: inherit;
+}
+
+.qv-st-data-cell-null-value .qv-st-value {
+    text-align: inherit !important;
+}
+
+.qv-st-header-cell {
+    vertical-align: inherit !important;
+}
+
+
+/*
+div .qv-st-header-wrapper tr:nth-child(2) :hover {
+	background: #1d96b2 !important;
+	color: #4b4b4b !important;
+}
+div .qv-st-bottom-header tr :hover {
+	background: #efece9 !important;
+	color: rgb(51, 51, 51) !important;
+}
+*/
+
+div table .qv-st-header-cell {
+    border: 1px solid #e0e0e0 !important;
+}
+
+div table td.qv-st-data-cell {
+    border-left: 1px solid #e0e0e0 !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+
+div table td.qv-st-header-cell.qv-st-header-cell-search {
+    border-left: 1px solid #e0e0e0 !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+
+div table th.qv-st-header-cell {
+    font-weight: bold;
+}
+
+div table th.qv-st-header-cell.qv-st-total-cell {
+    font-weight: bold;
+}
+
+div table .qv-st-data-cell.qv-st-data-cell-numeric .qv-st-value {
+    text-align: Center !important;
+}
+
+div table tr th .qv-st-value {
+    text-align: Center !important;
+}
+
+div table tr td.qv-st-data-cell {
+    padding-left: 1px !important;
+    padding-top: 0.4em !important;
+    padding-bottom: 0.4em !important;
+    font-size: 1.1em !important;
+}
+
+
+/* table style */
+
+
+/* pivot table */
+
+.qv-object-pivot-table .qv-inner-object table tr[tid="header.row"]:nth-child(1) {
+    /*background: none !important;*/
+}
+
+.qv-pt .cell.header.top {
+    color: #fff !important;
+    background: #1d96b2;
+}
+
+.qv-object-pivot-table .qv-inner-object table tr[tid="header.row"]:nth-child(3) {
+    background: #75accc !important;
+    color: #fff !important;
+}
+
+.qv-object-pivot-table .qv-inner-object table tr[tid="header.row"]:nth-child(3) :hover {
+    background: #1d96b2 !important;
+    color: #fff !important;
+}
+
+.qv-object-pivot-table .qv-inner-object table td.cell.numeric {
+    text-align: Center !important;
+}
+
+.qv-object-pivot-table .qv-inner-object table td.cell.data {
+    text-align: Center !important;
+}
+
+.qv-object-pivot-table .qv-inner-object table .cell.null-value {
+    background-color: #ffffff !important;
+}
+
+.qv-object-pivot-table .qv-inner-object table tr th div {
+    font-size: 13px !important;
+    /*text-align: Center !important;*/
+}
+
+.qv-object-pivot-table .qv-inner-object table tr th div {
+    font-weight: bold !important;
+}
+
+
+/* pivot table */
