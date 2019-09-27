@@ -1,0 +1,2 @@
+# HRTheme
+Theme FOR QLIK SENSE
